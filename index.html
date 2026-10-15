@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página educativa para la Lección 4.">
+  <title>Lección 4</title>
+  <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=vOzoOhuGRrAVwmRBoKWGk0EmCJNiZvfqMKa8APvJsI0BMvZ7QE5_4lTn7iVcwE1zrV_SieyfaDGNdfZPTNch0U9RafBqXnx7mSyAdipYkglZyGOSAGIkaOo1sB7rLez6gBjLvGIbbmzmjPoT5V1MrHCM8CFR105tOedYJTY-Vn1lB3n4mAvT-DDCPBuGuUf16vdDSUGTByXD_q_N5ZU9A_TtgBJVCme0c0schg673wCqXDtPuN5tomo29HNdd-G5e7LAwfKEdir6mvxFPpx9caKqY3IyAt97E6hwyXo4iQaPGKSXGf8b9_1wfLKJrru7" charset="UTF-8"></script><style>
+    :root {
+      --azul-oscuro: #102a43;
+      --azul: #1769aa;
+      --celeste: #eaf4fb;
+      --blanco: #ffffff;
+      --gris: #52606d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--azul-oscuro);
+      background: linear-gradient(145deg, #f4f8fb, #e5eff7);
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: var(--azul-oscuro);
+      color: var(--blanco);
+      padding: 18px 24px;
+    }
+    .barra {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .marca {
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: .95rem;
+    }
+    .etiqueta {
+      border: 1px solid rgba(255,255,255,.55);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: .85rem;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: auto;
+      padding: 56px 0;
+      flex: 1;
+    }
+    .tarjeta {
+      background: var(--blanco);
+      border-radius: 22px;
+      padding: clamp(28px, 6vw, 64px);
+      box-shadow: 0 18px 50px rgba(16, 42, 67, .10);
+      border-top: 7px solid var(--azul);
+      text-align: center;
+    }
+    .numero {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 74px;
+      height: 74px;
+      border-radius: 20px;
+      background: var(--celeste);
+      color: var(--azul);
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 4rem);
+      line-height: 1.1;
+    }
+    .subtitulo {
+      color: var(--gris);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 20px auto 0;
+    }
+    .contenido {
+      margin: 34px auto 0;
+      max-width: 620px;
+      padding: 20px;
+      border-radius: 14px;
+      background: #f7fafc;
+      color: var(--gris);
+      line-height: 1.7;
+      text-align: left;
+    }
+    .contenido strong { color: var(--azul-oscuro); }
+    footer {
+      text-align: center;
+      padding: 22px 16px;
+      color: var(--gris);
+      font-size: .88rem;
+    }
+    @media (max-width: 480px) {
+      header { padding: 16px; }
+      .marca { font-size: .82rem; }
+      .etiqueta { font-size: .78rem; }
+      main { padding: 30px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="barra">
+      <div class="marca">RECURSO EDUCATIVO</div>
+      <div class="etiqueta">Material de aprendizaje</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="tarjeta" aria-labelledby="titulo-leccion">
+      <div class="numero" aria-hidden="true">04</div>
+      <h1 id="titulo-leccion">Lección 4</h1>
+      <p class="subtitulo">
+        Bienvenido(a) a la Lección 4. En este espacio podrá incorporar el objetivo,
+        los contenidos, las actividades y los recursos correspondientes a esta lección.
+      </p>
+      <div class="contenido">
+        <strong>Contenido de la lección</strong>
+        <p>
+          Esta sección está preparada para agregar la información educativa específica,
+          instrucciones para las personas participantes, imágenes, videos o enlaces de apoyo.
+        </p>
+        <p><strong>Objetivo:</strong> agregue aquí el objetivo de aprendizaje.</p>
+        <p><strong>Actividad:</strong> agregue aquí las indicaciones de la actividad.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Página educativa · Lección 4
+  </footer>
+</body>
+</html>
